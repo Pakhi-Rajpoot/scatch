@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/shop.css">
+</head>
+<body>
+    <%- include("partials/header") %>  <!-- Including header.ejs -->
+
+    <div class="main">
+        <div class="left">
+            <div class="one">
+                <h3>sort by</h3>
+                <form action="">
+                    <select name="sortby" id="">
+                        <option value="popular">Popular</option>
+                        <option value="newest">Newest</option>
+                    </select>
+                </form>
+            </div>
+            <div class="two">
+                <a href="">New Collection</a>
+                <a href="">All Products</a>
+                <a href="">Discounted Products</a>
+            </div>
+            <div class="three">
+                <a href="">Filter by:</a>
+                <a href="">Availability</a>
+                <a href="">Discount</a>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="products">
+              <% products.forEach(function(product){ %>
+                <div class="product" style="background-color:<%= product.panelcolor %>">
+
+                    <div class="image">
+                        <img src="data:image/jpeg;base64,<%= product.image.toString('base64') %>" alt="">
+                    </div>
+
+                    <div class="features"  style="color: <%= product.textcolor %>">
+                        <h3>name= <%= product.name %></h3>
+                        <h4>price= <%= product.price %></h4>
+                        
+                    </div> 
+                    <div  class="addtocart">
+                       <a href="/addtocart/<%= product._id %>">Add To Cart</a>
+                       
+                    </div>
+                   
+
+
+                </div>
+            <% }) %>
+
+                   
+              
+               
+            
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html><h3>name= random</h3>

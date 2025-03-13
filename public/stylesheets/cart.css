@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    padding: 80px;
+    gap: 40px;
+    
+}
+
+
+.left{
+    width: 30%;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height: 320px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height:288px ;
+}
+.upperPanel{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    padding: 16px 20px;
+
+}
+.upperpanel h3{
+    font-size:24px ;
+}
+.upperPanel div{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+   
+}
+.plus{
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    display: flex;
+    border-radius: 99%;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    padding: 4px 4px;
+    border: 30%;
+    background-color: white;
+    color: black;
+}
+.minus{
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    display: flex;
+    border-radius: 99%;
+    align-items: center;
+    justify-content: center;
+}
+.lowerPanel{
+    display: flex;
+    justify-content: space-between;
+    background-color: #999;
+    padding: 12px 20px;
+    align-items: center;
+
+}
+.right{
+    width: 70%;
+}
+.right h3{
+    font-size:20px ;
+}
+.details{
+    padding: 0px 40px;
+    margin-top: 20px;
+}
+.detail{
+    display: flex;
+    margin-top: 8px;
+}
+.detail > h4{
+    width: 30%;
+
+}
+.horizontalLine{
+    width: 100%;
+    height: 10px;
+    margin-top: 40px;
+}
+.totalAmt{
+    display: flex;
+
+}
+.totalAmt > h3{
+    width: 30%;
+}
+
+
+

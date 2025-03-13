@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/createProducts.css">
+</head>
+<body>
+    <%- include("partials/header") %>  <!-- Including header.ejs -->
+
+    <div class="main">
+        <div class="container">
+            <div class="left">
+                <div class="content">
+                    <a href="">All Products</a>
+                    <a href="">Create new products</a>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Create New Products</h2>
+                <form action="/products/create" method="post" enctype="multipart/form-data">
+                    <div class="productDetails">
+                        <h3>Product Details</h3>
+                        <div class="img">
+                            <label for="">Product Image</label>
+                            <input type="file" name="image" value="Select File">
+                        </div>
+                        <div class="grid">
+                            <input type="text" name="name" id="" placeholder="Product Name">
+                            <input type="text" name="price" id="" placeholder="Product Price">
+                            <input type="text" name="discount" id="" placeholder="Discount Price">
+                        </div>
+                    </div>
+                    <div class="panelDetails">
+                        <h3>Panel Details</h3>
+                        <div class="grid">
+                            <!-- <input type="text" placeholder="Background Color" name="bgcolor"> -->
+                            <input type="text" placeholder="Panel Color" name="panelcolor">
+                            <input type="text" placeholder="Text Color" name="textcolor">
+
+                        </div>
+                    </div>
+                    <input type="submit" value="Create Product" class="submitBtn">
+                    
+
+                </div>
+                   
+
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

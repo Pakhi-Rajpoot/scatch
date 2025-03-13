@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+<body>
+    
+
+    <div class="main">
+        <div class="one">
+            <div class="register">
+                <h3>welcome to <span>Scatch</span></h3>
+                <h4 class="heading1">create your account</h4>
+                <form action="/users/register" method="post">
+                    <input class="input" type="text" placeholder="Full Name" name="fullname">
+                    <input class="input" type="email" placeholder="Email" name="email">
+                    <input class="input" type="password" placeholder="password" name="password">
+                    <input id="btn" type="submit" value="Create My Account">
+                </form>
+            </div>
+        </div>
+        <div class="two">
+            <div class="login">
+                <h4 class="heading2">login your account</h4>
+                <form action="/users/login" method="post">
+                    <input class="input2" type="email" placeholder="Email" name="email">
+                    <input class="input2" type="password" placeholder="Password" name="password">
+                    <input class="btn" type="submit" value="Login">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
