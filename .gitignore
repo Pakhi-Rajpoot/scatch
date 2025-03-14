@@ -1,1 +1,2 @@
-/config
+config/development.json
+config/keys.json
