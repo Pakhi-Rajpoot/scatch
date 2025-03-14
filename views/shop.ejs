@@ -38,7 +38,8 @@
                 <div class="product" style="background-color:<%= product.panelcolor %>">
 
                     <div class="image">
-                        <img src="data:image/jpeg;base64,<%= product.image.toString('base64') %>" alt="">
+                        <img src="/images/<%= product.image %>" alt="<%= product.name %>">
+
                     </div>
 
                     <div class="features"  style="color: <%= product.textcolor %>">
