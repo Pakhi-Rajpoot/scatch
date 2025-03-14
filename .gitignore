@@ -1,2 +1,1 @@
-config/development.json
-config/keys.json
+.env
