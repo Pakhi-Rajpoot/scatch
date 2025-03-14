@@ -1,14 +1,11 @@
-const mongoose = require("mongoose");
-const config = require("config");
-const dbgr = require("debug")
+const config = require('config');
+const mongoose = require('mongoose');
 
-
+const db = config.get('mongoURI');
 
 mongoose
-.connect('mongodb+srv://pakhirajpoot:mynewpasswordinscatch@scatchcluster0.e7rkt.mongodb.net/scatch?retryWrites=true&w=majority&appName=ScatchCluster0'
-
-).then(function(req,res){
-    console.log("connected");
-})
+  .connect(db)
+  .then(() => console.log('MongoDB Connected...'))
+  .catch(err => console.log(err));
 
 module.exports = mongoose.connection;
