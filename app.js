@@ -3,6 +3,7 @@ const app = express();
 
 const cookieParser = require("cookie-parser");
 const path = require("path");
+require("dotenv").config();
 
 const db = require("./config/mongoose-connection")
 
@@ -13,7 +14,7 @@ const index = require("./routes/index.js")
 const expressSession = require("express-session")
 const flash = require("connect-flash");
 
-require("dotenv").config();
+
 
 
 app.use(express.json());
