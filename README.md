@@ -14,4 +14,4 @@
 - Frontend: EJS, CSS
 - Database: MongoDB (Atlas)
 - Image Uploads: Cloudinary
-
+- Deployment: Render
