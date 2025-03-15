@@ -112,3 +112,107 @@
 
 
 
+  
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .image {
+        height: auto;
+    }
+
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+
+    .upperPanel h3 {
+        font-size: 18px;
+    }
+
+    .details {
+        padding: 0px 20px;
+    }
+
+    .detail > h4 {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .number {
+        padding: 2px 6px;
+        font-size: 14px;
+    }
+
+    .plus, .minus {
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
+    }
+
+    .lowerPanel {
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .totalAmt {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .totalAmt > h3 {
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .details {
+        padding: 0px 10px;
+    }
+
+    .upperPanel {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .upperPanel h3 {
+        font-size: 16px;
+    }
+
+    .detail > h4 {
+        font-size: 12px;
+    }
+
+    .plus, .minus {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .number {
+        font-size: 12px;
+    }
+
+    .lowerPanel {
+        padding: 10px;
+    }
+}
+
+
+
+
