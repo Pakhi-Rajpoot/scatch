@@ -11,7 +11,7 @@
 
 # Tech Stack
 - Backend: Node.js, Express.js
-- Frontend: EJS, CSS
+- Frontend: EJS, CSS ,JS ,HTML
 - Database: MongoDB (Atlas)
 - Image Uploads: Cloudinary
 - Deployment: Render
