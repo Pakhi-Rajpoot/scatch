@@ -114,11 +114,20 @@ img{
       max-width: 300px;
     }
   
-    img {
+    /* img {
       height: auto; 
       width: 100%;
       object-fit: cover;
+    } */
+    .image {
+        height: auto;
     }
+
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+
   
     select {
       width: 100%; 
