@@ -92,3 +92,65 @@ span{
     border: none;
 
 }
+
+  
+  @media (max-width: 768px) {
+    .main {
+      flex-direction: column; 
+      padding: 20px; 
+      height: auto;
+    }
+  
+    .one, .two {
+      width: 100%; 
+      height: auto; 
+    }
+  
+    .register, .login {
+      padding: 20px; 
+    }
+  
+    h3 {
+      font-size: 28px; 
+      text-align: center;
+    }
+  
+    .heading1, .heading2 {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    #btn, .btn {
+      width: 100%; 
+      padding: 12px;
+      font-size: 16px;
+    }
+  
+    .input, .input2 {
+      padding: 10px 14px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .register, .login {
+      padding: 10px;
+    }
+  
+    h3 {
+      font-size: 24px;
+    }
+  
+    .heading1, .heading2 {
+      font-size: 14px;
+    }
+  
+    #btn, .btn {
+      font-size: 14px;
+    }
+  
+    .input, .input2 {
+      font-size: 12px;
+    }
+  }
+  
