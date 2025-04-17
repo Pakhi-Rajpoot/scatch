@@ -1,7 +1,7 @@
 # 🛒 Scratch - E-commerce Website
 
 ## 🌐 Live Demo  
-👉 [Visit the website here!](https://scatch-1-284a.onrender.com)
+👉 [Visit the website here!](https://scatch-cxy9.onrender.com)
 
 # Features
 - User Authentication & Authorization
